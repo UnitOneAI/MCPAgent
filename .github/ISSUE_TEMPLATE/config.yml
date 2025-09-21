@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 General Discussion
+    url: https://github.com/unitone-ai/windows-365-mcp-server/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 🔒 Security Issues
+    url: mailto:security@unitone.ai
+    about: Report security vulnerabilities privately
+  - name: 💼 Enterprise Support
+    url: https://www.unitone.ai
+    about: Get enterprise support and professional services

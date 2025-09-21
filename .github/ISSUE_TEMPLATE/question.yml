@@ -1,0 +1,78 @@
+name: ❓ Question
+description: Ask a question about the Windows 365 MCP Server
+title: "[Question]: "
+labels: ["question", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? We're here to help! Please check our documentation and existing issues first.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched existing issues and discussions
+          required: true
+        - label: I have reviewed the documentation and README
+          required: true
+        - label: This is not a bug report or feature request
+          required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Question Category
+      description: What is your question about?
+      options:
+        - Installation and Setup
+        - Authentication and Permissions
+        - Usage and Configuration
+        - Microsoft Graph API
+        - Windows 365 Provisioning
+        - MCP Protocol
+        - Integration with Claude Desktop
+        - Troubleshooting
+        - Best Practices
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+      placeholder: Ask your question here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Provide any relevant context about your environment or use case
+      placeholder: |
+        - What are you trying to achieve?
+        - What have you tried so far?
+        - Any relevant configuration details?
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment (if relevant)
+      description: Information about your environment
+      value: |
+        - OS: [e.g., Windows 11, macOS 14, Ubuntu 22.04]
+        - .NET Version: [e.g., 8.0.x]
+        - MCP Server Version: [e.g., 0.1.0]
+        - Entra ID Tenant Type: [e.g., Commercial, GCC]
+        - Windows 365 License Type: [e.g., Enterprise, Business]
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Any other information that might be helpful
+      placeholder: Screenshots, logs, or other relevant details...
