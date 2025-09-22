@@ -124,8 +124,6 @@ AZURE_CLIENT_SECRET=abcdef123456789~something.very.long.and.secret
 ### Step 4: Test the Server (Optional)
 Test the server with MCP Inspector:
 ```bash
-# Navigate to the server directory
-cd src/Windows365.Mcp.Server
 
 # Test the server directly 
 dotnet run --project src/Windows365.Mcp.Server/Windows365.Mcp.Server.csproj
@@ -135,10 +133,10 @@ npx @modelcontextprotocol/inspector dotnet run --project .
 ```
 This will start MCP Inspector at `http://localhost:6274/` with session token authentication.
 
-Configure MCP Inspector:
+Configure MCP Inspector (with your path):
 - Transport: `STDIO`
 - Command: `dotnet`
-- Arguments: `run --project /YOUR-FULL-PATH-HERE/UNITONE_MCP_W365_GIT/Windows365.Mcp.Server/src/Windows365.Mcp.Server`
+- Arguments: `run --project /YOUR-FULL-PATH-HERE/src/Windows365.Mcp.Server`
 - Environment variables:
 
 ```bash
