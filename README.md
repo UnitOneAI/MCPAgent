@@ -598,19 +598,7 @@ These tools work together to automate the complete Windows 365 provisioning work
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md).
 
-### Development Setup
-```bash
-git clone https://github.com/unitone-ai/windows-365-mcp-server.git
-cd windows-365-mcp-server
-dotnet restore
-dotnet build
-```
 
-### Testing the MCP Server
-```bash
-# Test with MCP Inspector
-npx @modelcontextprotocol/inspector dotnet run --project src/Windows365.Mcp.Server
-```
 
 ---
 
@@ -623,12 +611,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**🚀 Ready to automate your Windows 365 environment with AI?**
-
-[**Get Started**](#-quick-start) • [**Join Discord**](https://discord.gg/EMcCcMc9)
-
----
-
-*Developed by **UNITONE** - Making enterprise AI workloads visible, controllable, and safe.*
 
 </div>
