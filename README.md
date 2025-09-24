@@ -620,28 +620,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🏢 About UNITONE
-
-This MCP server demonstrates [UNITONE's](https://unitone.ai) approach to enterprise AI governance:
-
-- **🔍 Discovery** - Automated inventory of AI workloads and resources
-- **📊 Insights** - Real-time monitoring and analytics  
-- **🛡️ Governance** - Policy-based management and compliance
-- **🎛️ Control** - Complete audit trail and access controls
-
----
-
-## 📞 Support & Community
-
-- 🐛 **[Bug Reports & Feature Requests](https://github.com/unitone-ai/windows-365-mcp-server/issues)**
-- 💬 **[Community Discussions](https://github.com/unitone-ai/windows-365-mcp-server/discussions)**
-- 🗨️ **[Discord Community](https://discord.gg/EMcCcMc9)** - Join our Discord for real-time support and discussions
-- 📧 **[Contact Us](mailto:hello@unitone.ai)** - Get in touch with our team
-- 🌐 **[UNITONE Website](https://www.unitone.ai)** - Learn more about enterprise AI governance
-- 📚 **[MCP Specification](https://modelcontextprotocol.io/specification/2025-06-18/)**
-- 🔗 **[Windows 365 Documentation](https://docs.microsoft.com/en-us/windows-365/)**
-
----
 
 <div align="center">
 
