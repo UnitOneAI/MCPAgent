@@ -5,7 +5,7 @@
 [![Model Context Protocol](https://img.shields.io/badge/MCP-2025--06--18-green)](https://github.com/modelcontextprotocol/specification)
 [![Windows 365](https://img.shields.io/badge/Windows%20365-Enterprise-blue)](https://www.microsoft.com/en-us/windows-365)
 
-⭐ **[Star this repository](https://github.com/unitone-ai/windows-365-mcp-server)** to stay updated with the latest features!
+⭐ **[Star this repository]([https://github.com/unitone-ai/windows-365-mcp-server](https://github.com/UnitOneAI/MCPAgent/stargazers))** to stay updated with the latest features!
 
 > **The FIRST Model Context Protocol (MCP) Server for Windows 365 Cloud PC management**
 
