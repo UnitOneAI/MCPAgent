@@ -5,10 +5,6 @@
 [![Model Context Protocol](https://img.shields.io/badge/MCP-2025--06--18-green)](https://github.com/modelcontextprotocol/specification)
 [![Windows 365](https://img.shields.io/badge/Windows%20365-Enterprise-blue)](https://www.microsoft.com/en-us/windows-365)
 
-⭐ **[Star this repository]([https://github.com/unitone-ai/windows-365-mcp-server](https://github.com/UnitOneAI/MCPAgent/stargazers))** to stay updated with the latest features!
-
-> **The FIRST Model Context Protocol (MCP) Server for Windows 365 Cloud PC management**
-
 A comprehensive MCP server that enables AI assistants to discover, provision, and manage Windows 365 Cloud PCs through Microsoft Graph API. Built with C#/.NET and fully compliant with MCP specification 2025-06-18. Initial set of tools is provided, while we will continue building and providing tools. Initial release uses STDIO while future releases will also include Streamable HTTP as a transport.
 
 ## Table of Contents
